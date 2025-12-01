@@ -302,7 +302,7 @@ export default Icon;`;
                   <button
                     key={format.id}
                     onClick={() => setSelectedFormat(format.id)}
-                    className={`p-2 sm:p-3 text-left transition-all border-2 ${
+                    className={`hover:cursor-pointer p-2 sm:p-3 text-left transition-all border-2 ${
                       selectedFormat === format.id
                         ? "bg-amber-900 text-amber-50 border-amber-950 shadow-md"
                         : "bg-amber-50 text-amber-900 border-amber-700 hover:bg-amber-100"
